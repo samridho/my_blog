@@ -971,8 +971,71 @@ footer{
     padding: 10px 0 0 15px;
 }
 
+.form_box{
+    width: 40vw; 
+    min-height: 80vh;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #407a7a;
+    box-shadow: 1px 1px 1px 5px #4deeea;
+    border-radius: 15px;
 
+}
+.form_box h6{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
 
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+.input_box label{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.input_box input{
+    margin-left: 10px;
+    border: 2px solid #407a7a;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+}
+.input_box ::placeholder{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.input_box textarea{
+    width: 400px; 
+    height: 100px;
+    border: 2px solid #407a7a;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.input_box input:focus{
+    border: none;
+    box-shadow: 1px 1px 1px 5px #7ffdfd;
+}
+.input_box textarea:focus{
+    border: none;
+    box-shadow: 1px 1px 1px 5px #7ffdfd;
+}
 
 
 
