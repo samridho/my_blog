@@ -1129,6 +1129,17 @@ footer{
     .bus_btn{
         display: block;
     }
+    .success_main{
+        display: flex;
+        flex-direction: column;
+    }
+    .story_contner{
+        height: 60vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+    }
+
   }
 
 
