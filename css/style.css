@@ -893,8 +893,8 @@ footer{
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: scroll;
-    min-width: 900px; 
-    min-height: 1000px;
+    /* min-width: 900px;  */
+    /* min-height: 1000px; */
     box-shadow: 1px 1px 5px 5px #d5d5d5;
     border-radius: 15px;
 
@@ -1139,7 +1139,14 @@ footer{
         flex-wrap: nowrap;
         overflow-y: scroll;
     }
+    .full_story_intro{
+        height: 300px ;
+        
+    }
+    .full_story{
+        width: 100vw;
     
+    }
   }
 
 
