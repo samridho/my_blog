@@ -326,17 +326,16 @@ input:focus{
     top: 20px;
     z-index: 2;
     min-height: 100px;
-    max-height: 120px;
+    max-height: 100px;
     min-width: 100px;
-    max-width: 120px;
+    max-width: 100px;
     overflow: hidden;
-    transform: rotate(45deg);
     /* border-radius: 12px 38px 77px 43px; */
     border-radius: 50%;
     border: 1px solid #fff;
 
 }
-.teem_img::before{
+/* .teem_img::before{
     content: '';
     position: absolute;
     height: 100%;
@@ -344,12 +343,12 @@ input:focus{
     background: linear-gradient(90deg,#001eff,	#f000ff,#ffe700,	#74ee15,	#4deeea);
     animation: bigimg 3s linear infinite;
 
-}
+} */
 @keyframes bigimg {
     from{
         transform: scale(1);
         /* transform: rotate(42deg); */
-        transform: rotate(0deg);
+        /* transform: rotate(0deg); */
 
 
 
@@ -358,17 +357,16 @@ input:focus{
     to{
     transform: scale(2);
     /* transform: rotate(42deg); */
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
 
 
     }
     
 }
 .teem_img img{
-    height: 90%;
-    width: 90%;
-    margin: 0px 0px 0px 13px;
-    transform: rotate(313deg);
+    height: 100%;
+    width: 100%;
+    /* transform: rotate(313deg); */
 }
 .sosel_box{
     position: absolute;
